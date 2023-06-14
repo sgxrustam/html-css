@@ -48,3 +48,73 @@ p {
     color: orange;
     font-size: 16px;
 }
+p {
+  background: orange;
+  background: green;
+}
+#food {
+  background: green;
+}
+.hotdog p {
+  background: brown;
+}
+.hotdog p.mustard {
+  background: yellow;
+}
+.btn {
+  font-size: 16px;
+}
+.btn-danger {
+  background: red;
+}
+.btn-success {
+  background: green;
+}
+/* Шестнадцатеричные */
+.task {
+  background: #800000;
+}
+.count {
+  background: #ff0;
+  /* rgb 0-255 */
+}
+.task {
+  background: rgb(128, 0, 0);
+}
+.count {
+  background: rgb(255, 255, 0);
+}
+/* rgba(.0-100=% прозрачность) или десятичное значение от 0-1 через ., */
+.task {
+  background: rgba(128, 0, 0, .25);
+}
+.count {
+  background: rgba(255, 255, 0, 1);
+}
+/* hsl 1zоттенок 0-360 2zнасыщенность и яркость 0-100% */
+.task {
+  background: hsl(0, 100%, 25%);
+}
+.count {
+  background: hsl(60, 100%, 50%);
+}
+  /* hsla(.0-100=% прозрачность) или десятичное значение от 0-1 через , */
+.task {
+  background: hsla(0, 100%, 25%, .25);
+}
+.count {
+  background: hsla(60, 100%, 50%, 1);
+}
+/* px */
+p {
+  font-size: 14px;
+}
+/* %-от родительского элемента */
+.col {
+  width: 50%;
+}
+/* Одна единица em эквивалентна размеру шрифта элемента*/
+.banner {
+  font-size: 14px;
+  width: 5em;
+}
